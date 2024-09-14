@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=New+Amsterdam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+  background-image: linear-gradient( to right, rgb(245, 245, 161), green , orange);
+    z-index: 1;
+   width: 100%;
+}
+.eng-text{
+    font-family: "New Amsterdam", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}   
+.top-navbar-2{
+    height: 80px;
+    background-image: linear-gradient( to right, rgb(245, 245, 161), green , orange);
+    color: white;
+}
+
+.box-text {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    max-width: 400px;
+    overflow: hidden;
+}
+@media(max-width:600px){
+    .box-text{
+       max-width: 180px;
+    }
+    }
+.box-text h1{
+
+     padding: 0 3rem; 
+    letter-spacing: 1px;
+    animation: move-rtl 8000ms linear infinite;
+
+}
+@keyframes move-rtl{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+@media(max-width:600px){
+    .top-navbar-2{
+        max-width: 400px !important;
+        margin: 0px 5px;
+    }
+    }
+
+#kdm-logo{
+    height: 60px;
+    border-radius:35px;
+}
+.logo-h-sk{
+    font-size: 30px;
+    
+}
+.play-pics{
+    border-radius: 30px;
+    height: 400px;
+    width: 100%;
+  
+    
+}
+.ending-btn{
+    margin: 20px 0px;
+}
+.open-text{
+    margin-left: -90px !important;
+} 
+.section-auto-imgs{
+  margin-top: 120px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+} 
+#head{
+    color: white !important;
+}
+
+h5 ,h4 ,h2,h3{
+    background-image: linear-gradient( to right, rgb(252, 8, 20), green , rgb(240, 51, 51));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+       font-family: "New Amsterdam", sans-serif;
+       font-weight: 700;
+} 
+
+.section-input{
+    margin: 20px;
+    padding: 20px;
+   
+}
+#end-text{
+    color:lightslategray;
+    display: flex;
+     padding-left: 30px;
+}
+#b-text{
+    padding: 5px;
+}

@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=New+Amsterdam&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-image: linear-gradient( to right, rgb(245, 245, 161), green , orange);
+   z-index: 1;
+   width: 100%;
+
+
+    
+}
+.top-navbar-2{
+    height: 80px;
+    background-image: linear-gradient( to right, rgb(245, 245, 161), green , orange);
+    color: white;
+}
+.box-text{
+    display: flex;
+    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    max-width: 400px;
+    overflow: hidden;
+}
+@media(max-width:600px){
+    .box-text{
+       max-width: 180px;
+    }
+    }
+.box-text h1{
+
+     padding: 0 3rem; 
+    letter-spacing: 1px;
+    animation: move-rtl 8000ms linear infinite;
+
+}
+@keyframes move-rtl{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+@media(max-width:600px){
+    .top-navbar-2{
+        max-width: 400px !important;
+        margin: 0px 5px;
+    }
+    }
+#kdm-logo{
+    height: 60px;
+    border-radius:35px;
+}
+.logo-h-sk{
+    font-size: 30px;
+    
+}
+.play-pics{
+    border-radius: 20px;
+    height: 400px;
+    width: 100%;
+  
+    
+}
+#head{
+    color: white !important
+}
+.open-text{
+    margin-left: -90px !important;
+} 
+
+
+.section-text{
+    padding: 20px 30px;
+      
+  margin-top: 120px;
+ 
+   
+}
+.heading-text{
+   text-align: center;
+    color: brown;
+    padding: 10px;
+    font-family: "Noto Nastaliq Urdu", serif;
+   
+   
+}
+.text{
+    text-align: center;
+    padding: 10px;
+    font-size: 32px;
+   font-family: "Noto Nastaliq Urdu", serif;
+  font-weight: 500;   
+}
+.click{
+color: white;
+font-size: 169;
+}
+#click{
+    color: white;
+    text-decoration: none;
+}
+#end-text{
+    color:lightslategray;
+    display: flex;
+     padding-left: 30px;
+}
+#b-text{
+    padding: 5px;
+}

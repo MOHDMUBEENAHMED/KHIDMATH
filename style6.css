@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+body{
+    background-color: #67d649 !important;
+}
+.container{
+    height: 700px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+    
+}
+#container-2{
+    background-color:white;
+    border-radius: 10px;
+   margin-top: auto;
+   margin-bottom: auto;
+    height: auto;
+    width: auto;
+   
+}
+
+.icons{
+    padding: 3px;
+   color: #67d649;
+    background:#fff ;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 90px;
+    margin-top: -60px;
+    position: relative;
+    
+    
+}
+#icons{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#text{
+   margin-top: 50px;
+   padding: 0px 20px;
+   text-align: center;
+   justify-content: center;
+}
+h2{
+    padding: 30px 10px;
+    margin: 30px 10px;
+}
+.button-end{
+    margin-top: 60px;
+    
+}
+#button-end-click{
+    text-decoration: none;
+    color: white;
+}
